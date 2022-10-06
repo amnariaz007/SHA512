@@ -30,9 +30,7 @@ console.log("first16 ", digit2);
 
 //3rd STEP AND FORTH STEP
 
-const list = [2, 94, 38, 112, 94, 198, 115, 139, 185, 55, 111, 57, 46, 44, 86, 143, 111, 186, 156, 99, 79, 49, 39, 182, 182, 217, 122, 138, 122, 58, 102, 110, 26, 197, 9, 21, 127, 235, 28, 101, 139, 164, 49, 119, 242, 53, 165, 44, 164, 228, 241, 104, 12, 224, 221, 213, 58, 96, 121, 207, 58, 209, 222, 60]
-    ;
-const middleIndex = Math.ceil(list.length / 2);
+const middleIndex = Math.ceil(result1.length / 2);
 
 var firstHalf = list.splice(0, middleIndex);
 var secondHalf = list.splice(-middleIndex);
