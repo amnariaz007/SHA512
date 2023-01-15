@@ -5,7 +5,6 @@ const a = "lY2shc9UBZIR1l7aTJzbBdPYnhPKo8ZzGLFXnNzK1Jo";
 const b = "zF79aSPECD80LCi7ytnDtleivHDwXN85JT591pa4yxs"
 const message = a + b;
 
-
 //1st STEP
 
 result1 = crypto.createHash("sha256").update(message).digest();
