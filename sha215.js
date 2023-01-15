@@ -47,7 +47,6 @@ console.log("SHA256", result1, result1.length, result1.toString('hex'));
 //     var third = a.concat(b)
 //     console.log("Thirdresult ", third);
 
-
 //     var join3 = third.join('');
 //     var digit3 = join3.slice(0, 16);
 //     console.log("first16 ", digit3);
